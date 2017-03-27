@@ -3,5 +3,6 @@ echo "<!DOCTYPE html><html><head><title>Braille Ukraine - ресурсний ц�
 
 ?>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+<link rel="stylesheet" text="text/css" href="css/styles.css" />
 <?php
 echo '</head><body><h1>Вітаємо на ресурсному центрі для незрячих - Braille Ukraine<h1><br /></body>';
