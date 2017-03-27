@@ -15,6 +15,7 @@ echo '</head><body><br />';
     <a title="Menu" onclick="$('#menu').toggle();"><span class="span-bar"></span>
       <span class="span-bar"></span>
       <span class="span-bar"></span></a>
+    <a href="/" title="main">Main</a>
     <div id="menu">
       <ul>
         <li><a href="#resources" onclick="$('#menu').hide();">Resources</a></li>
