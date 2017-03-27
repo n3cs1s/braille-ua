@@ -6,22 +6,25 @@ body{
 }
 #topbar{
   width:100%;
-  background:azure;
+  background:darkgray;
   height:65px;
+  box-shadow: 5px 5px 5px black;
+}
+#topbar >a{
+    margin-top:5px;
 }
 .span-bar{
-  border-bottom:2px solid white;
-  height:3px;
-  margin-top:3px;
-  display:block;
-  width:20px;
+ border-bottom: 3px solid white;
+height: 4px;
+display: block;
+width: 30px;
 }
 #menu{
   display:none;
   width:300px;
   height:auto;
   border:2px solid black;
-  box-shadow:10px 10px 5px black;
+  box-shadow:5px 5px 5px #a5a1ab;
   position:fixed;
   top:65px;
   left:0;
