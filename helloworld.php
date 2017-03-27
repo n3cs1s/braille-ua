@@ -12,14 +12,14 @@ echo '</head><body><br />';
 ?>
 <div id="header">
   <div id="topbar">
-    <a href="#" title="Menu" onclick="$('#menu').toggle();"><span class="span-bar"></span>
+    <a title="Menu" onclick="$('#menu').toggle();"><span class="span-bar"></span>
       <span class="span-bar"></span>
       <span class="span-bar"></span></a>
     <div id="menu">
       <ul>
-        <li><a href="#resources">Resources</a></li>
-        <li><a href="#music-braille">Music files</a></li>
-        <li><a href="#audio">Audio descriptions</a></li>
+        <li><a href="#resources" onclick="$('#menu').hide();">Resources</a></li>
+        <li><a href="#music-braille" onclick="$('#menu').hide();">Music files</a></li>
+        <li><a href="#audio" onclick="$('#menu').hide();">Audio descriptions</a></li>
       </ul>
     </div>
   </div>
