@@ -12,7 +12,9 @@ body{
 .span-bar{
   border-bottom:2px solid white;
   height:3px;
-  margin-top:4px;
+  margin-top:3px;
+  display:block;
+  width:20px;
 }
 #menu{
   display:none;
