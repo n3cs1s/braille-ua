@@ -1,13 +1,29 @@
 body{
   background:#f5f5f5;
 }
+#header{
+  width:100%;
+}
+#topbar{
+  width:100%;
+  background:azure;
+  height:65px;
+}
 #menu{
   display:none;
-  width:200px;
+  width:300px;
   height:auto;
   border:2px solid black;
   box-shadow:10px 10px 5px black;
+  position:fixed;
+  top:65px;
+  left:0;
+  background:#abc;
 }
 #menu >li{
+  display:block;
+}
+#menu >li >a{
+  color:white;
   display:block;
 }
