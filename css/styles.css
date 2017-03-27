@@ -39,3 +39,27 @@ width: 30px;
   color:white;
   display:block;
 }
+#main{
+min-height: 20vw;
+display: flex;
+justify-content: space-around;
+}
+#main >h1{
+  text-align:center;
+}
+#resources{
+min-height: 20vw;
+display: flex;
+justify-content: space-around;
+
+}
+#music-braille{
+min-height: 20vw;
+display: flex;
+justify-content: space-around;
+}
+#audio{
+min-height: 20vw;
+display: flex;
+justify-content: space-around;
+}
