@@ -18,6 +18,7 @@ body{
   padding-top: 15px;
   display: block;
   padding-left: 15px;
+  cursor:pointer;
 }
 .span-bar{
  border-bottom: 3px solid white;
@@ -57,15 +58,20 @@ justify-content: space-around;
 min-height: 20vw;
 display: flex;
 justify-content: space-around;
-
+position:relative;
+  top:65px;
 }
 #music-braille{
 min-height: 20vw;
 display: flex;
 justify-content: space-around;
+  position:relative;
+  top:65px;
 }
 #audio{
 min-height: 20vw;
 display: flex;
 justify-content: space-around;
+  position:relative;
+  top:65px;
 }
