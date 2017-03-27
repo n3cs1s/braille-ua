@@ -11,7 +11,9 @@ body{
   box-shadow: 5px 5px 5px black;
 }
 #topbar >a{
-    margin-top:5px;
+  padding-top: 15px;
+  display: block;
+  padding-left: 15px;
 }
 .span-bar{
  border-bottom: 3px solid white;
