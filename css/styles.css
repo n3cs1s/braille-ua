@@ -9,6 +9,11 @@ body{
   background:azure;
   height:65px;
 }
+.span-bar{
+  border-bottom:2px solid white;
+  height:3px;
+  margin-top:4px;
+}
 #menu{
   display:none;
   width:300px;
