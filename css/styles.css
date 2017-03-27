@@ -25,11 +25,11 @@ width: 30px;
   display:none;
   width:300px;
   height:auto;
-  border:2px solid black;
+  /*border:2px solid black;*/
   box-shadow:5px 5px 5px #a5a1ab;
   position:fixed;
   top:65px;
-  left:0;
+  left:55px;
   background:#abc;
 }
 #menu >li{
