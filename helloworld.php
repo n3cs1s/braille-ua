@@ -12,7 +12,9 @@ echo '</head><body><br />';
 ?>
 <div id="header">
   <div id="topbar">
-    <a href="#" title="Menu" onclick="$('#menu').toggle();"></a>
+    <a href="#" title="Menu" onclick="$('#menu').toggle();"><span class="span-bar"></span>
+      <span class="span-bar"></span>
+      <span class="span-bar"></span></a>
     <div id="menu">
       <ul>
         <li><a href="#resources">Resources</a></li>
